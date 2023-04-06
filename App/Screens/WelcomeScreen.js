@@ -5,15 +5,15 @@ import AppButton from "../components/AppButton";
 function WelcomeScreen({ navigation }) {
   return (
     <ImageBackground
-      blurRadius={10}
+      blurRadius={3}
       style={styles.background}
-      source={require("../assets/background.jpg")}
+      source={require("../assets/mountain.avif")}
     >
       <Image
         style={styles.icon}
         source={require("../assets/logo-red.png")}
       ></Image>
-      <Text style={styles.text}>Sell What You Don't Need</Text>
+      <Text style={styles.text}>REnewtronics</Text>
       <View style={styles.buttonStyle}>
         <AppButton title="Login" onPress={() => navigation.navigate("Login")} />
         <AppButton
@@ -38,9 +38,9 @@ const styles = StyleSheet.create({
     paddingBottom: 60,
   },
   icon: {
-    top: 100,
-    width: 100,
-    height: 100,
+    top: 50,
+    width: 200,
+    height: 200,
     alignSelf: "center",
     position: "absolute",
   },
@@ -51,5 +51,6 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontWeight: 600,
     paddingVertical: 20,
+    multiLine: 2,
   },
 });
