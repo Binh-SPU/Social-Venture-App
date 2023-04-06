@@ -5,9 +5,9 @@ import AppButton from "../components/AppButton";
 function WelcomeScreen({ navigation }) {
   return (
     <ImageBackground
-      blurRadius={3}
+      blurRadius={0}
       style={styles.background}
-      source={require("../assets/mountain.avif")}
+      source={require("../assets/background.jpg")}
     >
       <Image
         style={styles.icon}
@@ -35,20 +35,20 @@ const styles = StyleSheet.create({
   buttonStyle: {
     flex: 1,
     justifyContent: "flex-end",
-    paddingBottom: 60,
+    paddingBottom: 100,
   },
   icon: {
-    top: 50,
-    width: 200,
-    height: 200,
+    top: 100,
+    width: 300,
+    height: 300,
     alignSelf: "center",
     position: "absolute",
   },
   text: {
     alignSelf: "center",
-    top: 210,
+    top: 350,
     position: "absolute",
-    fontSize: 25,
+    fontSize: 30,
     fontWeight: 600,
     paddingVertical: 20,
     multiLine: 2,

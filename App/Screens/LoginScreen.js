@@ -1,6 +1,6 @@
 import * as Yup from "yup";
 import React, { useState } from "react";
-import { Image, StyleSheet } from "react-native";
+import { Image, StyleSheet, ImageBackground } from "react-native";
 import Screen from "../components/Screen";
 import {
   AppForm,

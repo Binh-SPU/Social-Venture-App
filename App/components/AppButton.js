@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: "100%",
     height: "7%",
-    marginTop: 20,
+    marginTop: 30,
   },
   text: {
     color: colors.white,
