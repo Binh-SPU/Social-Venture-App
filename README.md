@@ -27,7 +27,7 @@ Visual Studio Code, Expo Go, Postman.
 3. Implementing AsyncStorage and SecureStorage to cache data in the app. More specifically, even when there is no Internet connection, the app will still restore all previous data from database. Additionally, the app will memorise any state changes and perform necessary actions when there is Internet connection again. 
 4. Simulating sending notification messages toward other users. On receiving such messages, one tap on one of those and the app will direct to the message tab. 
 
-![posting-demo](App/assets/demo/posting-demo.png) ![cameraroll-demo](App/assets/demo/cameraroll-demo.png) ![new-listing-demo](App/assets/demo/new-listing-demo.png)
+![posting-demo](App/assets/demo/posting-demo.png) ![new-listing-demo](App/assets/demo/new-listing-demo.png)
 
 5. The capability of posting a new item with these respective field, such as title, price, category, description. Each of these field input all has their respective condition checks and customizations like numpab-only-keyboard and other features. Furthermore, there is a option to choose and upload images from the camera roll. All these information will be recorded on the Node.js database and shown in the list after reload.
 6. Using a Node.js backend to record all the necessary information.
