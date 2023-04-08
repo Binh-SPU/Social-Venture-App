@@ -37,7 +37,7 @@ Visual Studio Code, Expo Go, Postman.
 # API Reference Installtion:
 [Will add it later]
 
-# Improvements that could be made:
+# Improvements That Could Be Made:
 
 * Make Statusbar become more visible depending on the background color.
 * Learn Node.js or SQLite more to implement our own customizable back-end, especially implementing our message system or chat log.
