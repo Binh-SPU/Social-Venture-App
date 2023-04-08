@@ -37,10 +37,19 @@ Visual Studio Code, Expo Go, Postman.
 # API Reference Installtion:
 [Will add it later]
 
+# Improvements that could be made:
+
+* Make Statusbar become more visible depending on the background color.
+* Learn Node.js or SQLite more to implement our own customizable back-end, especially implementing our message system or chat log.
+* Using API Reference to pinpoint a map location of the user.
+* Research and update some old function that will soon to be deprecated.
+* Fixing some Keyboard view pop-up in some places.
+
 # Credit:
 
 - **Binh: Lead Developer/Programmer.**
 - **Acosta: Developer, UI Designer.**
 - **Hung: UX/UI Designer.**
-- **The Back-end that we chose was taken directly from Mosh's Advanced React Native online course. [Link will be added later]**
+- **The Back-end that we chose was taken directly from Mosh's Advanced React Native online course:**
+**[Code With Mosh](https://codewithmosh.com/p/the-ultimate-react-native-course)**
 
