@@ -6,10 +6,10 @@
 ![feed-demo](App/assets/demo/feed-demo.png) ![account-screen-demo](App/assets/demo/account-screen-demo.png)
 
 # About:
-This is a matching app where people can do online trading or buying second-hand items from other people. In other words, this app purpose is similar to OfferUp 
-and CragList where users can post their no-longer needed items online for sale and buy second-hands items from other users at a cheaper price. The context purpose of 
-the app is to be submit as a minimum viable product for school Social Venture Competition. This is our second attemps at designing apps from React Native. 
-This app took significant inspirations from Mosh's React Native course online because we expanded our designing knowledgde based on it.
+This is a matching app where people can do online trading or buy second-hand items from other people. In other words, this app's purpose is similar to OfferUp 
+and CragList where users can post their no-longer needed items online for sale and buy second-hand items from other users at a cheaper price. The context purpose of 
+the app is to be submitted as a minimum viable product for the school Social Venture Competition. This is our second attempt at designing apps from React Native. 
+This app took significant inspiration from Mosh's React Native course online because we expanded our design knowledge based on it.
 
 # Social Media:
 Showcases and work progress contents are posted on Instagram, please check out at:
@@ -23,27 +23,27 @@ Visual Studio Code, Expo Go, Postman.
 
 ![login-page-demo](App/assets/demo/login-page-demo.png) ![register-page-demo](App/assets/demo/register-page-demo.png)
 
-1. Signing in (can use FaceID) correctly will pass encrypted access token to ensure the login process. Implementing Account Registration with specfic condition in each textInput field using Yup.
-3. Implementing AsyncStorage and SecureStorage to cache data in the app. More specifically, even when there is no Internet connection, the app will still restore all previous data from database. Additionally, the app will memorise any state changes and perform necessary actions when there is Internet connection again. 
-4. Simulating sending notification messages toward other users. On receiving such messages, one tap on one of those and the app will direct to the message tab. 
+1. Signing in (can use FaceID) correctly will pass an encrypted access token to ensure the login process. Implementing Account Registration with specific conditions in each textInput field using Yup.
+3. Implementing AsyncStorage and SecureStorage to cache data in the app. More specifically, even when there is no Internet connection, the app will still restore all previous data from the database. Additionally, the app will memorize any state changes and perform necessary actions when there is an Internet connection again. 
+4. Simulating sending notification messages to other users. On receiving such messages, one tap on one of those and the app will direct to the message tab. 
 
 ![posting-demo](App/assets/demo/posting-demo.png) ![cameraroll-demo](App/assets/demo/cameraroll-demo.png) ![new-listing-demo](App/assets/demo/new-listing-demo.png)
 
-5. The capability of posting a new item with these respective field, such as title, price, category, description. Each of these field input all has their respective condition checks and customizations like numpab-only-keyboard and other features. Furthermore, there is a option to choose and upload images from the camera roll. All these information will be recorded on the Node.js database and shown in the list after reload.
+5. The capability of posting a new item with these respective fields, such as title, price, category, and description. Each of these field inputs has its respective condition checks and customizations like numpab-only-keyboard and other features. Furthermore, there is an option to choose and upload images from the camera roll. All this information will be recorded on the Node.js database and shown in the list after reloading.
 6. Using a Node.js backend to record all the necessary information.
 7. Using Lottie Animation to increase the liveliness of the app during fetching data or uploading data process.
-8. Thoughtfully design different modules of components, api, hooks, assets, etc. This is ensure seperation of concerns. Specifically, we build and use a lots of custom hooks, text, itemPicker, etc. 
+8. Thoughtfully design different modules of components, API, hooks, assets, etc. This ensures the separation of concerns. Specifically, we build and use a lot of custom hooks, text, itemPicker, etc. 
 
 # API Reference Installtion:
 [Will add it later]
 
 # Improvements That Could Be Made:
 
-* Make Statusbar become more visible depending on the background color.
+* Make Statusbar more visible depending on the background color.
 * Learn Node.js or SQLite more to implement our own customizable back-end, especially implementing our message system or chat log.
 * Using API Reference to pinpoint a map location of the user.
-* Research and update some old function that will soon to be deprecated.
-* Fixing some Keyboard view pop-up in some places.
+* Research and update some old functions that will soon be deprecated.
+* Fixing some Keyboard view pop-ups in some places.
 
 # Credit:
 
